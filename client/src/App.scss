@@ -1,0 +1,21 @@
+.wholePage {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    background-color: black;
+    .searchBar {
+        height: 7vh;
+        width: 100vw;
+        .sInput {
+            margin-left: 85vw;
+            margin-top: 2vh;
+        }
+    }
+    .ag-theme-alpine-dark {
+        overflow: hidden;
+        --ag-font-size: 12px;
+        --ag-font-family: "Open Sans";
+    }
+}
